@@ -11,5 +11,4 @@ class Square:
         Args:
              size: the size of one side
         '''
-    def __init__(self, size = 0):
         self.__size = size
