@@ -15,4 +15,4 @@ def load_from_json_file(filename):
             type: object file
     '''
     with open(filename, 'w', encoding="utf-8") as jf:
-        return json.load(jf)
+        return json.loads(jf)
