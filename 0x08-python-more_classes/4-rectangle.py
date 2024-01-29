@@ -2,7 +2,6 @@
 '''Defines the class Rectangle'''
 
 
-
 class Rectangle:
     '''defines a rectangle by:(based on 2-rectangle.py)'''
 
@@ -69,7 +68,7 @@ class Rectangle:
                 int: area
         '''
         return (self.__width) * (self.__height)
-    
+
     def perimeter(self):
         '''calculates the rectangle perimeter
 
@@ -79,7 +78,7 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__width + self.__height) * 2
-    
+
     def __str__(self):
         '''prints rectangle with #
 

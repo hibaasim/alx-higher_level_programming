@@ -44,7 +44,7 @@ class Rectangle:
         return self.__height
 
     @height.setter
-    def height(self, value)
+    def height(self, value):
         '''Sets the rectangle height
 
             Args:
@@ -68,13 +68,13 @@ class Rectangle:
                 int: area
         '''
         return (self.__width) * (self.__height)
-    
+
     def perimeter(self):
         '''calculates the rectangle perimeter
 
             Returns:
                 int: 0 or perimeter
         '''
-        if self.__width == 0 or self.__height == 0
+        if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__width + self.__height) * 2
