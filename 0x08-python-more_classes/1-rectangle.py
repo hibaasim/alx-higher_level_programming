@@ -8,9 +8,9 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         '''instances
 
-            Args:
-                width: the rectangle width
-                height: the rectangle height
+        Args:
+            width: the rectangle width
+            height: the rectangle height
         '''
         self.width = width
         self.height = height
@@ -24,12 +24,12 @@ class Rectangle:
     def width(self, value):
         '''Sets the rectangle width
 
-            Args:
-                value: the width
+        Args:
+            value: the width
 
-            Raises:
-                TypeError: if not int
-                ValueError: if value <0
+        Raises:
+            TypeError: if not int
+            ValueError: if value <0
         '''
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
@@ -47,12 +47,12 @@ class Rectangle:
     def height(self, value)
         '''Sets the rectangle height
 
-            Args:
-                value: the height
+        Args:
+            value: the height
 
-            Raises:
-                TypeError: if not int
-                ValueError: if value < 0
+        Raises:
+            TypeError: if not int
+            ValueError: if value < 0
         '''
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
