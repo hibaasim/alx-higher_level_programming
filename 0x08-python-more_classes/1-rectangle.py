@@ -2,7 +2,6 @@
 '''Defines the class Rectangle'''
 
 
-
 class Rectangle:
     '''defines a rectangle by:(based on 0-rectangle.py)'''
 
