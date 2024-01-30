@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Defines a Rectangle class'''
+'''Defines the class Rectangle'''
 
 
 class Rectangle:
@@ -44,7 +44,7 @@ class Rectangle:
         return self.__height
 
     @height.setter
-    def height(self, value)
+    def height(self, value):
         '''Sets the rectangle height
 
         Args:
