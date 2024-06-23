@@ -4,7 +4,8 @@
 import MySQLdb
 import sys
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
 
     try:
         conn = MySQLdb.connect(
@@ -15,8 +16,7 @@ if __name__=='__main__':
                 db=sys.argv[3],
                 charset="utf8")
     except MySQLdb.Error as e:
-        print ("Error connecting to database: {}".format(e))
-        sys.exit(1)
+        print("Error connecting to database: {}".format(e)) sys.exit(1)
     cur = conn.cursor()
     cur.execute("SELECT * FROM states ORDER BY id ASC")
     rows = cur.fetchall()
